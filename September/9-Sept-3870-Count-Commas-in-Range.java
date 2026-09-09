@@ -6,12 +6,7 @@ class Solution {
         if (n >= 1000) {
             count += n - 999;
         }
-
-        // Numbers from 100000 to n have an additional comma
-        if (n >= 100000) {
-            count += n - 99999;
-        }
-
+        
         return count;
     }
 }
